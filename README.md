@@ -84,7 +84,7 @@ update-alternatives --config php
 
 Pilih PHP 7.4 dari daftar yang muncul, lalu verifikasi:
 
-php -v
+    php -v
 
 Output yang benar akan menampilkan:
 
