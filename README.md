@@ -16,9 +16,14 @@ Setelah terinstal, buka Termux dan jalankan:
 
 ```bash
 pkg update && pkg upgrade -y
+```
+```bash
 termux-setup-storage
+```
+```bash
 pkg install proot proot-distro -y
 ```
+
 
 🐧 2. Instal dan Masuk ke Debian
 
