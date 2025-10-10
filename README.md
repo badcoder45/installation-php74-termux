@@ -9,8 +9,7 @@ Cocok untuk menjalankan bot, API, atau script PHP lama yang belum kompatibel den
 
 Unduh Termux versi terbaru (bukan dari Play Store):
 
-- 📥 [Mirror via APKToy](https://m.apktoy.com/download/com.termux_0.117_free.html)
-- 📥 [F-Droid Official](https://f-droid.org/repo/com.termux_117.apk)
+- 📥 [Mirror](https://www.apkmirror.com/apk/fredrik-fornwall/termux-fdroid-version/termux-fdroid-version-0-117-release/termux-fdroid-version-0-117-android-apk-download/)
 
 Setelah terinstal, buka Termux dan jalankan:
 
