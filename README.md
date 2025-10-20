@@ -45,8 +45,10 @@ apt update && apt upgrade -y
 ⚙️ 3. Instalasi Dependensi Dasar
 
 ```bash
-apt install wget zip uuid-runtime -y
-apt-get install -y ca-certificates curl gnupg lsb-release install -m 0755 -d /etc/apt/keyrings
+apt-get install curl gnupg wget zip uuid-runtime -y
+```
+```bash
+apt-get install -y ca-certificates lsb-release install -m 0755 -d /etc/apt/keyrings
 ```
 
 🔑 4. Tambahkan Repository PHP 7.4 (Sury)
