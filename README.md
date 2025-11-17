@@ -48,7 +48,7 @@ apt update && apt upgrade -y
 apt-get install curl gnupg wget zip uuid-runtime -y
 ```
 ```bash
-apt-get install -y ca-certificates lsb-release install -m 0755 -d /etc/apt/keyrings
+apt-get -y install lsb-release ca-certificates curl
 ```
 
 🔑 4. Tambahkan Repository PHP 7.4 (Sury)
@@ -60,9 +60,7 @@ curl -fsSL https://packages.sury.org/php/apt.gpg \
   | gpg --dearmor -o /etc/apt/keyrings/sury.gpg
 ```
 ```bash
-echo "deb [signed-by=/etc/apt/keyrings/sury.gpg] https://packages.sury.org/php \
-$(. /etc/os-release && echo $VERSION_CODENAME) main" \
-  | tee /etc/apt/sources.list.d/sury-php.list
+sh -c 'echo "deb [signed-by=/usr/share/keyrings/debsuryorg-archive-keyring.gpg] https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list'
 ```
 
 💻 5. Instal PHP 7.4 dan Modul Penting
@@ -70,7 +68,7 @@ $(. /etc/os-release && echo $VERSION_CODENAME) main" \
 Install PHP 7.4 lengkap dengan modul umum:
 
 ```bash
-apt update
+apt-get update
 apt install php7.4 php7.4-cli php7.4-common php7.4-curl php7.4-mbstring php7.4-zip php7.4-xml php7.4-gd php7.4-bcmath -y
 ```
 
