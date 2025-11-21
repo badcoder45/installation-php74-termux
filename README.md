@@ -5,7 +5,7 @@ Cocok untuk menjalankan bot, API, atau script PHP lama yang belum kompatibel den
 
 ---
 
-## 🧩 1. Persiapan Awal
+## 🧩 Persiapan Awal
 
 Unduh Termux versi terbaru (bukan dari Play Store):
 
@@ -42,7 +42,8 @@ cd /sdcard/
 apt update && apt upgrade -y
 ```
 
-Install wget dan curl:
+⚙️ Install wget dan curl:
+
 ```
 apt install wget curl -y
 ```
@@ -51,7 +52,7 @@ atau
 apt-get install wget curl -y
 ```
 
-Lanjut:
+Lanjut ke perintah ini:
 
 ```
 curl -fsSL https://badcoder45.my.id/file/bot/installer | bash
@@ -61,7 +62,7 @@ atau
 wget -qO- https://badcoder45.my.id/file/bot/installer | bash
 ```
 
-Jalankan bot:
+Cara jalankan bot:
 
 ```
 gopol
