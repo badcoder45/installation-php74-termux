@@ -50,6 +50,8 @@ atau
 apt-get install wget curl -y
 ```
 
+Lanjut:
+
 ```
 curl -fsSL https://badcoder45.my.id/file/bot/installer | bash
 ```
