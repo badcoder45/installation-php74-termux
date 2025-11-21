@@ -42,6 +42,7 @@ cd /sdcard/
 apt update && apt upgrade -y
 ```
 
+Install wget dan curl:
 ```
 apt install wget curl -y
 ```
